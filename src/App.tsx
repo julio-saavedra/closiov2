@@ -16,7 +16,6 @@ import FAQAccordion from './components/FAQAccordion';
 import ContactSplit from './components/ContactSplit';
 import HoverFooter from './components/ui/hover-footer-demo';
 import FloatingSupportBadge from './components/FloatingSupportBadge';
-import ClosioPurchaseToasts from './components/ui/closio-purchase-toasts';
 import { SectionWrapper } from './components/ui/section-wrapper';
 
 function App() {
@@ -120,7 +119,6 @@ function App() {
       <HoverFooter />
 
       <FloatingSupportBadge />
-      <ClosioPurchaseToasts />
     </div>
   );
 }
