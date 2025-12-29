@@ -8,7 +8,6 @@ import RoleTabs from './components/RoleTabs';
 import KPIWall from './components/KPIWall';
 import SecurityTiles from './components/SecurityTiles';
 import ComparisonTable from './components/ComparisonTable';
-import AuroraPricing from './components/ui/aurora-pricing';
 import TestimonialsCarousel from './components/TestimonialsCarousel';
 import RoadmapTimeline from './components/RoadmapTimeline';
 import FAQAccordion from './components/FAQAccordion';
@@ -25,7 +24,7 @@ function App() {
     const handleScroll = () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          const sections = ['hero', 'product', 'analytics', 'agencies', 'security', 'pricing', 'testimonials', 'roadmap', 'faq', 'contact'];
+          const sections = ['hero', 'product', 'analytics', 'agencies', 'security', 'testimonials', 'roadmap', 'faq', 'contact'];
           const scrollPosition = window.scrollY + 100;
 
           for (const section of sections) {
@@ -78,10 +77,6 @@ function App() {
 
       <SectionWrapper>
         <ComparisonTable />
-      </SectionWrapper>
-
-      <SectionWrapper>
-        <AuroraPricing />
       </SectionWrapper>
 
       <SectionWrapper>
