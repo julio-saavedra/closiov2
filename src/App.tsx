@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import NeuralNetworkHero from './components/ui/neural-network-hero';
 import CompanyLogos from './components/CompanyLogos';
 import ValueProps from './components/ValueProps';
 import { InteractiveImageAccordion } from './components/ui/interactive-image-accordion';
@@ -53,21 +52,7 @@ function App() {
     <div className="bg-black text-[#E8EEF5] overflow-x-hidden w-full min-h-screen">
       <Navbar activeSection={activeSection} />
 
-      <NeuralNetworkHero
-        title="Close More. Close Smarter."
-        description="The proprietary CRM built exclusively for the life-insurance industry - taking you from lead to issue paid with unprecedented clarity and control."
-        badgeText="Life Insurance CRM"
-        badgeLabel="New"
-        ctaButtons={[
-          { text: "Get Started", href: "#contact", primary: true },
-          { text: "See Features", href: "#product" }
-        ]}
-        microDetails={["Built for Insurance", "Commission Tracking", "Agent Management"]}
-      />
-
-      <SectionWrapper>
-        <Hero />
-      </SectionWrapper>
+      <Hero />
 
       <CompanyLogos />
 

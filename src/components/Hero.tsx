@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <section id="hero" className="min-h-screen w-full text-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative overflow-hidden">
+    <section id="hero" className="min-h-screen w-full text-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28 pb-16 sm:pb-20 relative overflow-hidden">
       <div className="w-full max-w-6xl mx-auto space-y-8 sm:space-y-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-12">
           <div className="flex-1 lg:flex-none"></div>
