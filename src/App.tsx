@@ -15,7 +15,6 @@ import RoadmapTimeline from './components/RoadmapTimeline';
 import FAQAccordion from './components/FAQAccordion';
 import ContactSplit from './components/ContactSplit';
 import HoverFooter from './components/ui/hover-footer-demo';
-import FloatingSupportBadge from './components/FloatingSupportBadge';
 import { SectionWrapper } from './components/ui/section-wrapper';
 
 function App() {
@@ -117,8 +116,6 @@ function App() {
       </SectionWrapper>
 
       <HoverFooter />
-
-      <FloatingSupportBadge />
     </div>
   );
 }
